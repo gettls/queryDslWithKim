@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;숫자야구게임&apos; to &apos;1st&apos;" description="Rename resource &apos;숫자야구게임&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/숫자야구게임" name="1st" stamp="1646459157764" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;1st&apos; to &apos;숫자야구게임&apos;" description="Rename resource &apos;1st&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/1st" name="숫자야구게임" stamp="1646459213905" updateReferences="true"/>
+</session>

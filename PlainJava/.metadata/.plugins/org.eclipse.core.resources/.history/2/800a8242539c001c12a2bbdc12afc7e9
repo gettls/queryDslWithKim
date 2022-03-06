@@ -1,0 +1,26 @@
+package 숫자야구게임;
+
+public class HintService {
+	
+	private int ball;
+	private int strike;
+	private int[] random = new int[3];
+	
+	public HintService() {
+	}
+	
+	public void generateRandom() {
+		
+	}
+	
+	private boolean checkStrike() {
+		strike = 0;
+		
+	}
+	
+	private boolean checkBall() {
+		
+	}
+	
+	private 
+}

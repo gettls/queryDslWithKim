@@ -1,0 +1,9 @@
+package 숫자야구게임;
+
+public class GameController {
+
+	public GameController() {
+		
+	}
+	
+}

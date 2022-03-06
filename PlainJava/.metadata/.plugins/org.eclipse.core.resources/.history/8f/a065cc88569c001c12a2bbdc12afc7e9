@@ -1,0 +1,45 @@
+package 숫자야구게임.service;
+
+import 숫자야구게임.RandomUtils;
+
+public class HintService {
+	
+	private int answer;
+	private int ball;
+	private int strike;
+	private int[] random = new int[3];
+	
+	public HintService(int answer) {
+		this.answer = answer;
+	}
+	
+	public void generateRandom() {
+		Integer number = RandomUtils.nextInt(0, 0);
+		randomToArray(number);
+	}
+
+	private void randomToArray(Integer number) {
+		for(int i = 2; i >= 3; i--) {
+			random[i] = number%10;
+			number/=10;
+		}
+	}
+	
+	private int checkStrike() {
+		strike = 0;
+		for(int i=0;i<3;i++) {
+			
+		}
+	}
+	
+	private int checkBall() {
+		
+	}
+	
+	public void checkAnswer() {
+		
+		
+		
+	}
+	
+}

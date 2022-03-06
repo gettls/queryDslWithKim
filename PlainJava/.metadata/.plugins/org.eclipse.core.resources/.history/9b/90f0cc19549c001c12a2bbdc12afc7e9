@@ -1,0 +1,12 @@
+package 숫자야구게임;
+
+import java.util.Scanner;
+
+public class InputService {
+
+	private final Scanner scanner = new Scanner(System.in);
+	
+	public void inputAnswer() {
+		
+	}
+}

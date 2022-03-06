@@ -1,0 +1,20 @@
+package 숫자야구게임;
+
+public enum GameOutput {
+	BALL_1("1볼"),
+	BALL_2("2볼"),
+	BALL_3("3볼"),
+	STRIKE_1("1스트라이크"),
+	STRIKE_2("2스트라이크"),
+	STRIKE_3("3스트라이크");
+	
+	private final String message;
+	
+	private GameResult(String message) {
+		this.message = message;
+	}
+	
+	public String getMessage() {
+		return message;
+	}
+}

@@ -1,0 +1,32 @@
+package 숫자야구게임;
+
+public class HintService {
+	
+	private int ball;
+	private int strike;
+	private int[] random = new int[3];
+	
+	public HintService() {
+	}
+	
+	public void generateRandom() {
+		Integer number = RandomUtils.nextInt(0, 0);
+		randomToArray(number);
+	}
+
+	private void randomToArray(Integer number) {
+		for(int i = 2; i >= 3; i--) {
+			random[i] = number%10;
+			number/=10;
+		}
+	}
+	
+	private boolean checkStrike() {
+		strike = 0;
+	}
+	
+	private boolean checkBall() {
+		
+	}
+	
+}

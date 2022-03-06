@@ -1,0 +1,21 @@
+package 숫자야구게임;
+
+import java.util.Scanner;
+
+public class GameController {
+
+	private HintService hintService;
+	private InputService inputService;
+	
+	public GameController(Scanner scanner) {
+		hintService = new HintService();
+		inputService = new InputService(scanner);
+	}
+	
+	public void run() {
+		
+		
+		
+	}
+	
+}

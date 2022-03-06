@@ -1,0 +1,12 @@
+package 숫자야구게임;
+
+import java.util.Random;
+
+public class RandomUtils {
+	private static final Random RANDOM = new Random();
+	private static int answer;
+	private RandomUtils() {
+    }
+	public static int nextInt(final int startInclusive, final int endInclusive) {
+	}
+}

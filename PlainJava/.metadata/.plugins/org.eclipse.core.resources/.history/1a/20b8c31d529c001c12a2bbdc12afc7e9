@@ -1,0 +1,10 @@
+package 숫자야구게임;
+
+public class Constant {
+
+	private static final int STARTINCURSIVE = 100 
+	
+	private Constant() {
+		
+	}
+}

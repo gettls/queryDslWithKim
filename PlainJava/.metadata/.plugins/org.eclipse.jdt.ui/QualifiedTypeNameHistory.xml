@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="숫자야구게임.Operation"/>
+    <fullyQualifiedTypeName name="숫자야구게임.GameResult"/>
+    <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="숫자야구게임.GameProgress"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="javax.xml.crypto.dsig.dom.DOMValidateContext"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="숫자야구게임.Constant"/>
+    <fullyQualifiedTypeName name="숫자야구게임.RandomUtils"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="숫자야구게임.message.GameOutput"/>
+    <fullyQualifiedTypeName name="숫자야구게임.message.GameInput"/>
+    <fullyQualifiedTypeName name="숫자야구게임.message.ProgressMessage"/>
+    <fullyQualifiedTypeName name="숫자야구게임.GameController"/>
+    <fullyQualifiedTypeName name="숫자야구게임.HintService"/>
+    <fullyQualifiedTypeName name="숫자야구게임.InputService"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="숫자야구게임.message.ResultMessage"/>
+    <fullyQualifiedTypeName name="숫자야구게임.service.HintService"/>
+</qualifiedTypeNameHistroy>

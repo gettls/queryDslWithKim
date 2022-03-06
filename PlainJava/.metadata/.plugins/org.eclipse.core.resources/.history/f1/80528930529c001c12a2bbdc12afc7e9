@@ -1,0 +1,17 @@
+package 숫자야구게임;
+
+public class HintService {
+	
+	private int answer;
+	
+	public HintService() {
+	}
+	
+	public void createRandom() {
+		answer = RandomUtils.nextInt(0, 0);
+		
+		
+	}
+	
+	
+}

@@ -1,0 +1,22 @@
+package 숫자야구게임;
+
+import java.util.Scanner;
+
+public class InputService {
+
+	private Scanner scanner;
+	private int inputValue;
+	private int startOrEnd;
+	
+	public InputService(Scanner scanner) {
+		this.scanner = scanner;
+	}
+	
+	public void inputAnswer() {
+		inputValue = scanner.nextInt();
+	}
+	
+	public void inputStartOrEnd() {
+		startOrEnd = scanner.nextInt();
+	}
+}
