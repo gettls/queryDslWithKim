@@ -1,0 +1,19 @@
+package study.querydsl.repository;
+
+import java.util.List;
+
+import com.querydsl.jpa.impl.JPAQueryFactory;
+
+import study.querydsl.dto.MemberSearchCondition;
+import study.querydsl.dto.MemberTeamDto;
+
+public class MemberRepositoryImpl implements MemberRepositoryCustom{
+
+	private final JPAQueryFactory queryFactory;
+	
+	@Override
+	public List<MemberTeamDto> search(MemberSearchCondition condition) {
+		
+	}
+
+}
