@@ -3,13 +3,12 @@ package 숫자야구게임.service;
 import java.util.Scanner;
 
 import 숫자야구게임.message.ProgressMessage;
-import 숫자야구게임.message.ResultMessage;
 
 public class InputService {
 
 	private Scanner scanner;
+	private int restartOrExit;
 	private int answer;
-	private int startOrEnd;
 	
 	public InputService(Scanner scanner) {
 		this.scanner = scanner;
@@ -20,7 +19,7 @@ public class InputService {
 	}
 
 	public int getStartOrEnd() {
-		return startOrEnd;
+		return restartOrExit;
 	}
 
 	public void inputAnswer() {
@@ -28,8 +27,8 @@ public class InputService {
 		answer = scanner.nextInt();
 	}
 	
-	public void inputStartOrEnd() {
+	public void inputRestartOrExit() {
 		System.out.println(ProgressMessage.TERMINATE.getMessage());
-		startOrEnd = scanner.nextInt();
+		restartOrExit = scanner.nextInt();
 	}
 }
